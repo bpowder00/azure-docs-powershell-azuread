@@ -20,6 +20,7 @@ Remove-MsolGroup -ObjectId <Guid> [-Force] [-TenantId <Guid>] [<CommonParameters
 
 ## DESCRIPTION
 The **Remove-MsolGroup cmdlet** deletes a group from Azure Active Directory.
+<p><b>IMPORTANT:</b> If you use Remove-MsolGroup in PowerShell to delete a group, this will delete the group permanently.</p>
 
 ## EXAMPLES
 
